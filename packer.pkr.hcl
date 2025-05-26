@@ -9,7 +9,7 @@ packer {
 
 variable "aws_region" {
   type    = string
-  default = "us-east-1"
+  default = "ap-south-1"
 }
 
 source "amazon-ebs" "ubuntu-node" {
@@ -24,7 +24,7 @@ source "amazon-ebs" "ubuntu-node" {
       root-device-type    = "ebs"
       virtualization-type = "hvm"
     }
-    owners      = ["099720109477"]
+    owners      = ["442426876097"]
     most_recent = true
   }
 }
