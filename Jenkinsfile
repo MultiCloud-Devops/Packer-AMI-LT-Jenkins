@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         AWS_REGION = 'ap-south-1'
-        LAUNCH_TEMPLATE_ID = 'lt-0400883ed943614aa'
-        ASG_NAME = "PACKER-ASG"
+        LAUNCH_TEMPLATE_ID = 'lt-08a9707d1a32f328e'
+        ASG_NAME = "packer-asg"
         
     }
 
